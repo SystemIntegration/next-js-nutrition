@@ -1,0 +1,54 @@
+/* styles/about.module.css */
+
+/* General styles */
+ .pageContainer {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    width: 100%;
+  }
+  
+  /* Main content styles */
+  .main {
+    flex: 1;
+    padding: 40px;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #009688;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .description a {
+    color: #009688;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .description a:hover {
+    color: #00796b;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  } 
